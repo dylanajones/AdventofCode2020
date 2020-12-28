@@ -140,7 +140,7 @@ def readData():
 	s_data = []
 	for line in f:
 		if line != "\n":
-			line.strip('\n')
+			line = line.strip('\n')
 			s_line = line.split()
 
 			s_data = s_data + s_line
